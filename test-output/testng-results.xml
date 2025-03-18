@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="27" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Execution Started]]>
+    </line>
+    <line>
+      <![CDATA[printData testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData17 testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData17 testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData17 testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData17 testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[contactDetails testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[contactDetails testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData1 testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData1 testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData1 testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[printData1 testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[createContact testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[createContact testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[moveToCalendarPage testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[moveToContactsPage testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[moveToLeadsPage testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[moveToOrganizationsPage testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[createOrganization testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[verify testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[TestCase3 testcase execution started]]>
+    </line>
+    <line>
+      <![CDATA[TestCase4 testcase execution started]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-15T14:23:44 IST" name="MainSuite" finished-at="2025-03-15T14:25:39 IST" duration-ms="115528">
+    <groups>
+      <group name="integration">
+        <method signature="AttributesTest.moveToLeadsPage()[pri:0, instance:testPackage.AttributesTest@6b695b06]" name="moveToLeadsPage" class="testPackage.AttributesTest"/>
+        <method signature="AttributesTest.moveToOrganizationsPage()[pri:0, instance:testPackage.AttributesTest@6b695b06]" name="moveToOrganizationsPage" class="testPackage.AttributesTest"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="AttributesTest.moveToCalendarPage()[pri:0, instance:testPackage.AttributesTest@6b695b06]" name="moveToCalendarPage" class="testPackage.AttributesTest"/>
+        <method signature="AttributesTest.moveToContactsPage()[pri:0, instance:testPackage.AttributesTest@6b695b06]" name="moveToContactsPage" class="testPackage.AttributesTest"/>
+        <method signature="ScenarioTest2.TestCase4()[pri:0, instance:testPackage.ScenarioTest2@5c80cf32]" name="TestCase4" class="testPackage.ScenarioTest2"/>
+      </group> <!-- smoke -->
+      <group name="adhoc">
+        <method signature="ScenarioTest2.TestCase3()[pri:0, instance:testPackage.ScenarioTest2@5c80cf32]" name="TestCase3" class="testPackage.ScenarioTest2"/>
+      </group> <!-- adhoc -->
+    </groups>
+    <test started-at="2025-03-15T14:23:44 IST" name="MainTest" finished-at="2025-03-15T14:25:39 IST" duration-ms="115528">
+      <class name="testPackage.AttributesTest">
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:15 IST" name="login" finished-at="2025-03-15T14:24:18 IST" duration-ms="3643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToCalendarPage()[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:18 IST" name="moveToCalendarPage" finished-at="2025-03-15T14:24:23 IST" duration-ms="4767" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToCalendarPage testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToCalendarPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:23 IST" name="logout" finished-at="2025-03-15T14:24:25 IST" duration-ms="2238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:25 IST" name="login" finished-at="2025-03-15T14:24:29 IST" duration-ms="3583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToContactsPage()[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:29 IST" name="moveToContactsPage" finished-at="2025-03-15T14:24:34 IST" duration-ms="4777" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToContactsPage testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToContactsPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:34 IST" name="logout" finished-at="2025-03-15T14:24:36 IST" duration-ms="2188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:36 IST" name="login" finished-at="2025-03-15T14:24:39 IST" duration-ms="3649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToLeadsPage()[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:39 IST" name="moveToLeadsPage" finished-at="2025-03-15T14:24:48 IST" duration-ms="8155" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToLeadsPage testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToLeadsPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:48 IST" name="logout" finished-at="2025-03-15T14:24:50 IST" duration-ms="2366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:50 IST" name="login" finished-at="2025-03-15T14:24:54 IST" duration-ms="3600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moveToOrganizationsPage()[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:54 IST" name="moveToOrganizationsPage" finished-at="2025-03-15T14:24:58 IST" duration-ms="4483" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[moveToOrganizationsPage testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveToOrganizationsPage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.AttributesTest@6b695b06]" started-at="2025-03-15T14:24:58 IST" name="logout" finished-at="2025-03-15T14:25:00 IST" duration-ms="2214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testPackage.AttributesTest -->
+      <class name="testPackage.ContactTest">
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testPackage.ContactTest@609e8838]" started-at="2025-03-15T14:23:45 IST" name="login" finished-at="2025-03-15T14:23:50 IST" duration-ms="4963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.ContactTest@609e8838]" started-at="2025-03-15T14:23:50 IST" name="createContact" data-provider="dataBaseContactDetails" finished-at="2025-03-15T14:23:58 IST" duration-ms="8300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mehta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Employee]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bank Employee]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ Bank]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[asha@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9988776655]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[createContact testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.ContactTest@609e8838]" started-at="2025-03-15T14:23:58 IST" name="logout" finished-at="2025-03-15T14:24:00 IST" duration-ms="2257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testPackage.ContactTest@609e8838]" started-at="2025-03-15T14:24:00 IST" name="login" finished-at="2025-03-15T14:24:04 IST" duration-ms="3594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.ContactTest@609e8838]" started-at="2025-03-15T14:24:04 IST" name="createContact" data-provider="dataBaseContactDetails" finished-at="2025-03-15T14:24:12 IST" duration-ms="8243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[K R]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Employee]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bank Employee]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ Bank]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[meera@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9988756655]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[createContact testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.ContactTest@609e8838]" started-at="2025-03-15T14:24:12 IST" name="logout" finished-at="2025-03-15T14:24:15 IST" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testPackage.ContactTest -->
+      <class name="testPackage.DataSupply">
+        <test-method signature="contactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.DataSupply@76494737]" started-at="2025-03-15T14:23:45 IST" name="contactDetails" data-provider="dataBaseContactDetails" finished-at="2025-03-15T14:23:45 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mehta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Employee]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bank Employee]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ Bank]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[asha@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9988776655]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[contactDetails testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactDetails -->
+        <test-method signature="contactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.DataSupply@76494737]" started-at="2025-03-15T14:23:45 IST" name="contactDetails" data-provider="dataBaseContactDetails" finished-at="2025-03-15T14:23:45 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[K R]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Employee]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bank Employee]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ Bank]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[meera@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9988756655]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[contactDetails testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactDetails -->
+        <test-method signature="printData(java.lang.String,java.lang.String)[pri:0, instance:testPackage.DataSupply@76494737]" started-at="2025-03-15T14:23:45 IST" name="printData" data-provider="userCredentials1" finished-at="2025-03-15T14:23:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[helen@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[helen@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method signature="printData(java.lang.String,java.lang.String)[pri:0, instance:testPackage.DataSupply@76494737]" started-at="2025-03-15T14:23:45 IST" name="printData" data-provider="userCredentials1" finished-at="2025-03-15T14:23:45 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sneha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sneha@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method signature="printData(java.lang.String,java.lang.String)[pri:0, instance:testPackage.DataSupply@76494737]" started-at="2025-03-15T14:23:45 IST" name="printData" data-provider="userCredentials1" finished-at="2025-03-15T14:23:45 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alina@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alina@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method signature="printData(java.lang.String,java.lang.String)[pri:0, instance:testPackage.DataSupply@76494737]" started-at="2025-03-15T14:23:45 IST" name="printData" data-provider="userCredentials1" finished-at="2025-03-15T14:23:45 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hari@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method signature="printData1(java.lang.String,java.lang.String)[pri:0, instance:testPackage.DataSupply@76494737]" started-at="2025-03-15T14:23:45 IST" name="printData1" data-provider="userCredentials" finished-at="2025-03-15T14:23:45 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[resbin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[resbin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData1 testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData1 -->
+        <test-method signature="printData1(java.lang.String,java.lang.String)[pri:0, instance:testPackage.DataSupply@76494737]" started-at="2025-03-15T14:23:45 IST" name="printData1" data-provider="userCredentials" finished-at="2025-03-15T14:23:45 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[siva@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[siva@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData1 testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData1 -->
+        <test-method signature="printData1(java.lang.String,java.lang.String)[pri:0, instance:testPackage.DataSupply@76494737]" started-at="2025-03-15T14:23:45 IST" name="printData1" data-provider="userCredentials" finished-at="2025-03-15T14:23:45 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sreekanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sreekanth@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData1 testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData1 -->
+        <test-method signature="printData1(java.lang.String,java.lang.String)[pri:0, instance:testPackage.DataSupply@76494737]" started-at="2025-03-15T14:23:45 IST" name="printData1" data-provider="userCredentials" finished-at="2025-03-15T14:23:45 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[athulya@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[athulya@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData1 testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData1 -->
+      </class> <!-- testPackage.DataSupply -->
+      <class name="testPackage.OrganizationsTest">
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testPackage.OrganizationsTest@4d1bf319]" started-at="2025-03-15T14:25:00 IST" name="login" finished-at="2025-03-15T14:25:04 IST" duration-ms="3644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrganization()[pri:0, instance:testPackage.OrganizationsTest@4d1bf319]" started-at="2025-03-15T14:25:04 IST" name="createOrganization" finished-at="2025-03-15T14:25:10 IST" duration-ms="6118" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrganization testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.OrganizationsTest@4d1bf319]" started-at="2025-03-15T14:25:10 IST" name="logout" finished-at="2025-03-15T14:25:10 IST" duration-ms="434" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.linkText: Sign Out
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.linkText: Sign Out
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at objectRepository.HomePage.signout(HomePage.java:55)
+at utilities.BaseClass.logout(BaseClass.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testPackage.OrganizationsTest -->
+      <class name="testPackage.dataSupplyTest">
+        <test-method signature="printData(java.lang.String,java.lang.String)[pri:0, instance:testPackage.dataSupplyTest@6c284af]" started-at="2025-03-15T14:23:44 IST" name="printData" data-provider="userCredentials1" finished-at="2025-03-15T14:23:44 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[helen@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[helen@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method signature="printData(java.lang.String,java.lang.String)[pri:0, instance:testPackage.dataSupplyTest@6c284af]" started-at="2025-03-15T14:23:44 IST" name="printData" data-provider="userCredentials1" finished-at="2025-03-15T14:23:44 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sneha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sneha@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method signature="printData(java.lang.String,java.lang.String)[pri:0, instance:testPackage.dataSupplyTest@6c284af]" started-at="2025-03-15T14:23:44 IST" name="printData" data-provider="userCredentials1" finished-at="2025-03-15T14:23:44 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alina@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alina@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method signature="printData(java.lang.String,java.lang.String)[pri:0, instance:testPackage.dataSupplyTest@6c284af]" started-at="2025-03-15T14:23:44 IST" name="printData" data-provider="userCredentials1" finished-at="2025-03-15T14:23:44 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hari@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method signature="printData17(java.lang.String,java.lang.String)[pri:0, instance:testPackage.dataSupplyTest@6c284af]" started-at="2025-03-15T14:23:44 IST" name="printData17" data-provider="userCredentials" finished-at="2025-03-15T14:23:44 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[resbin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[resbin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData17 testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData17 -->
+        <test-method signature="printData17(java.lang.String,java.lang.String)[pri:0, instance:testPackage.dataSupplyTest@6c284af]" started-at="2025-03-15T14:23:44 IST" name="printData17" data-provider="userCredentials" finished-at="2025-03-15T14:23:44 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[siva@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[siva@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData17 testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData17 -->
+        <test-method signature="printData17(java.lang.String,java.lang.String)[pri:0, instance:testPackage.dataSupplyTest@6c284af]" started-at="2025-03-15T14:23:44 IST" name="printData17" data-provider="userCredentials" finished-at="2025-03-15T14:23:44 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sreekanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sreekanth@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData17 testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData17 -->
+        <test-method signature="printData17(java.lang.String,java.lang.String)[pri:0, instance:testPackage.dataSupplyTest@6c284af]" started-at="2025-03-15T14:23:44 IST" name="printData17" data-provider="userCredentials" finished-at="2025-03-15T14:23:44 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[athulya@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[athulya@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[printData17 testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printData17 -->
+      </class> <!-- testPackage.dataSupplyTest -->
+      <class name="testPackage.VerificationClass">
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testPackage.VerificationClass@6f53b8a]" started-at="2025-03-15T14:25:10 IST" name="login" finished-at="2025-03-15T14:25:14 IST" duration-ms="3717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verify()[pri:0, instance:testPackage.VerificationClass@6f53b8a]" started-at="2025-03-15T14:25:14 IST" name="verify" finished-at="2025-03-15T14:25:14 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testPackage.VerificationClass.verify(VerificationClass.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[verify testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.VerificationClass@6f53b8a]" started-at="2025-03-15T14:25:16 IST" name="logout" finished-at="2025-03-15T14:25:20 IST" duration-ms="4019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testPackage.VerificationClass -->
+      <class name="testPackage.ScenarioTest2">
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testPackage.ScenarioTest2@5c80cf32]" started-at="2025-03-15T14:25:20 IST" name="login" finished-at="2025-03-15T14:25:24 IST" duration-ms="3742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="TestCase3()[pri:0, instance:testPackage.ScenarioTest2@5c80cf32]" started-at="2025-03-15T14:25:24 IST" name="TestCase3" finished-at="2025-03-15T14:25:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase3 testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase3 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.ScenarioTest2@5c80cf32]" started-at="2025-03-15T14:25:24 IST" name="logout" finished-at="2025-03-15T14:25:30 IST" duration-ms="5649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login(java.lang.String)[pri:0, instance:testPackage.ScenarioTest2@5c80cf32]" started-at="2025-03-15T14:25:30 IST" name="login" finished-at="2025-03-15T14:25:34 IST" duration-ms="3835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="TestCase4()[pri:0, instance:testPackage.ScenarioTest2@5c80cf32]" started-at="2025-03-15T14:25:34 IST" name="TestCase4" finished-at="2025-03-15T14:25:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase4 testcase execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase4 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.ScenarioTest2@5c80cf32]" started-at="2025-03-15T14:25:34 IST" name="logout" finished-at="2025-03-15T14:25:39 IST" duration-ms="5817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testPackage.ScenarioTest2 -->
+    </test> <!-- MainTest -->
+  </suite> <!-- MainSuite -->
+</testng-results>

@@ -1,0 +1,4 @@
+# Created at 2025-03-17T14:21:48.506
+
+Two tests in the same suite [CBT3Suite] cannot have the same name: Test
+

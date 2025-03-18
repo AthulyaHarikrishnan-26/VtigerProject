@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MainSuite" class="navigator-link">
+              <span class="suite-name border-failed">MainSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MainSuite" class="navigator-link ">
+                    <span>C:\AUTOMATION TESTING\M3Vtiger\Maintestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MainSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MainSuite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MainSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MainSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MainSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MainSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 1 failed,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MainSuite" class="hide-methods failed suite-MainSuite"> (hide)</a> <!-- hide-methods failed suite-MainSuite -->
+                      <a href="#" panel-name="suite-MainSuite" class="show-methods failed suite-MainSuite"> (show)</a> <!-- show-methods failed suite-MainSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-MainSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.VerificationClass" class="method navigator-link" hash-for-method="verify">verify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MainSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MainSuite" class="hide-methods passed suite-MainSuite"> (hide)</a> <!-- hide-methods passed suite-MainSuite -->
+                      <a href="#" panel-name="suite-MainSuite" class="show-methods passed suite-MainSuite"> (show)</a> <!-- show-methods passed suite-MainSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-MainSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.ScenarioTest2" class="method navigator-link" hash-for-method="TestCase3">TestCase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.ScenarioTest2" class="method navigator-link" hash-for-method="TestCase4">TestCase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.DataSupply" class="method navigator-link" hash-for-method="contactDetails(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655)">contactDetails(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.DataSupply" class="method navigator-link" hash-for-method="contactDetails(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655)">contactDetails(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.ContactTest" class="method navigator-link" hash-for-method="createContact(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655)">createContact(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.ContactTest" class="method navigator-link" hash-for-method="createContact(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655)">createContact(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.OrganizationsTest" class="method navigator-link" hash-for-method="createOrganization">createOrganization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.AttributesTest" class="method navigator-link" hash-for-method="moveToCalendarPage">moveToCalendarPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.AttributesTest" class="method navigator-link" hash-for-method="moveToContactsPage">moveToContactsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.AttributesTest" class="method navigator-link" hash-for-method="moveToLeadsPage">moveToLeadsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.AttributesTest" class="method navigator-link" hash-for-method="moveToOrganizationsPage">moveToOrganizationsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.dataSupplyTest" class="method navigator-link" hash-for-method="printData(sneha@gmail.com, sneha@123)">printData(sneha@gmail.com, sneha@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.DataSupply" class="method navigator-link" hash-for-method="printData(sneha@gmail.com, sneha@123)">printData(sneha@gmail.com, sneha@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.dataSupplyTest" class="method navigator-link" hash-for-method="printData(helen@gmail.com, helen@123)">printData(helen@gmail.com, helen@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.DataSupply" class="method navigator-link" hash-for-method="printData(hari@gmail.com, hari@123)">printData(hari@gmail.com, hari@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.DataSupply" class="method navigator-link" hash-for-method="printData(helen@gmail.com, helen@123)">printData(helen@gmail.com, helen@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.dataSupplyTest" class="method navigator-link" hash-for-method="printData(alina@gmail.com, alina@123)">printData(alina@gmail.com, alina@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.dataSupplyTest" class="method navigator-link" hash-for-method="printData(hari@gmail.com, hari@123)">printData(hari@gmail.com, hari@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.DataSupply" class="method navigator-link" hash-for-method="printData(alina@gmail.com, alina@123)">printData(alina@gmail.com, alina@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.DataSupply" class="method navigator-link" hash-for-method="printData1(resbin@gmail.com, resbin@123)">printData1(resbin@gmail.com, resbin@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.DataSupply" class="method navigator-link" hash-for-method="printData1(athulya@gmail.com, athulya@123)">printData1(athulya@gmail.com, athulya@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.DataSupply" class="method navigator-link" hash-for-method="printData1(siva@gmail.com, siva@123)">printData1(siva@gmail.com, siva@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.DataSupply" class="method navigator-link" hash-for-method="printData1(sreekanth@gmail.com, sreekanth@123)">printData1(sreekanth@gmail.com, sreekanth@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.dataSupplyTest" class="method navigator-link" hash-for-method="printData17(sreekanth@gmail.com, sreekanth@123)">printData17(sreekanth@gmail.com, sreekanth@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.dataSupplyTest" class="method navigator-link" hash-for-method="printData17(siva@gmail.com, siva@123)">printData17(siva@gmail.com, siva@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.dataSupplyTest" class="method navigator-link" hash-for-method="printData17(athulya@gmail.com, athulya@123)">printData17(athulya@gmail.com, athulya@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MainSuite" title="testPackage.dataSupplyTest" class="method navigator-link" hash-for-method="printData17(resbin@gmail.com, resbin@123)">printData17(resbin@gmail.com, resbin@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MainSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MainSuite" class="panel MainSuite">
+          <div class="suite-MainSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testPackage.VerificationClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify">
+                  </a> <!-- verify -->
+                  <span class="method-name">verify</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testPackage.VerificationClass.verify(VerificationClass.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MainSuite-class-failed -->
+          <div class="suite-MainSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.AttributesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="moveToCalendarPage">
+                  </a> <!-- moveToCalendarPage -->
+                  <span class="method-name">moveToCalendarPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="moveToContactsPage">
+                  </a> <!-- moveToContactsPage -->
+                  <span class="method-name">moveToContactsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="moveToLeadsPage">
+                  </a> <!-- moveToLeadsPage -->
+                  <span class="method-name">moveToLeadsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="moveToOrganizationsPage">
+                  </a> <!-- moveToOrganizationsPage -->
+                  <span class="method-name">moveToOrganizationsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MainSuite-class-passed -->
+          <div class="suite-MainSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.dataSupplyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData(sneha@gmail.com, sneha@123)">
+                  </a> <!-- printData(sneha@gmail.com, sneha@123) -->
+                  <span class="method-name">printData</span>
+                  <span class="parameters">(sneha@gmail.com,sneha@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData(helen@gmail.com, helen@123)">
+                  </a> <!-- printData(helen@gmail.com, helen@123) -->
+                  <span class="method-name">printData</span>
+                  <span class="parameters">(helen@gmail.com,helen@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData(alina@gmail.com, alina@123)">
+                  </a> <!-- printData(alina@gmail.com, alina@123) -->
+                  <span class="method-name">printData</span>
+                  <span class="parameters">(alina@gmail.com,alina@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData(hari@gmail.com, hari@123)">
+                  </a> <!-- printData(hari@gmail.com, hari@123) -->
+                  <span class="method-name">printData</span>
+                  <span class="parameters">(hari@gmail.com,hari@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData17(sreekanth@gmail.com, sreekanth@123)">
+                  </a> <!-- printData17(sreekanth@gmail.com, sreekanth@123) -->
+                  <span class="method-name">printData17</span>
+                  <span class="parameters">(sreekanth@gmail.com,sreekanth@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData17(siva@gmail.com, siva@123)">
+                  </a> <!-- printData17(siva@gmail.com, siva@123) -->
+                  <span class="method-name">printData17</span>
+                  <span class="parameters">(siva@gmail.com,siva@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData17(athulya@gmail.com, athulya@123)">
+                  </a> <!-- printData17(athulya@gmail.com, athulya@123) -->
+                  <span class="method-name">printData17</span>
+                  <span class="parameters">(athulya@gmail.com,athulya@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData17(resbin@gmail.com, resbin@123)">
+                  </a> <!-- printData17(resbin@gmail.com, resbin@123) -->
+                  <span class="method-name">printData17</span>
+                  <span class="parameters">(resbin@gmail.com,resbin@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MainSuite-class-passed -->
+          <div class="suite-MainSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.OrganizationsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createOrganization">
+                  </a> <!-- createOrganization -->
+                  <span class="method-name">createOrganization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MainSuite-class-passed -->
+          <div class="suite-MainSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.ScenarioTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase3">
+                  </a> <!-- TestCase3 -->
+                  <span class="method-name">TestCase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase4">
+                  </a> <!-- TestCase4 -->
+                  <span class="method-name">TestCase4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MainSuite-class-passed -->
+          <div class="suite-MainSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.ContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createContact(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655)">
+                  </a> <!-- createContact(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655) -->
+                  <span class="method-name">createContact</span>
+                  <span class="parameters">(Mr.,Asha,Mehta,Employee,Bank Employee, Bank,asha@gmail.com,9988776655)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createContact(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655)">
+                  </a> <!-- createContact(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655) -->
+                  <span class="method-name">createContact</span>
+                  <span class="parameters">(Mr.,Meera,K R,Employee,Bank Employee, Bank,meera@gmail.com,9988756655)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MainSuite-class-passed -->
+          <div class="suite-MainSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPackage.DataSupply</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactDetails(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655)">
+                  </a> <!-- contactDetails(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655) -->
+                  <span class="method-name">contactDetails</span>
+                  <span class="parameters">(Mr.,Meera,K R,Employee,Bank Employee, Bank,meera@gmail.com,9988756655)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactDetails(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655)">
+                  </a> <!-- contactDetails(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655) -->
+                  <span class="method-name">contactDetails</span>
+                  <span class="parameters">(Mr.,Asha,Mehta,Employee,Bank Employee, Bank,asha@gmail.com,9988776655)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData(sneha@gmail.com, sneha@123)">
+                  </a> <!-- printData(sneha@gmail.com, sneha@123) -->
+                  <span class="method-name">printData</span>
+                  <span class="parameters">(sneha@gmail.com,sneha@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData(hari@gmail.com, hari@123)">
+                  </a> <!-- printData(hari@gmail.com, hari@123) -->
+                  <span class="method-name">printData</span>
+                  <span class="parameters">(hari@gmail.com,hari@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData(helen@gmail.com, helen@123)">
+                  </a> <!-- printData(helen@gmail.com, helen@123) -->
+                  <span class="method-name">printData</span>
+                  <span class="parameters">(helen@gmail.com,helen@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData(alina@gmail.com, alina@123)">
+                  </a> <!-- printData(alina@gmail.com, alina@123) -->
+                  <span class="method-name">printData</span>
+                  <span class="parameters">(alina@gmail.com,alina@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData1(resbin@gmail.com, resbin@123)">
+                  </a> <!-- printData1(resbin@gmail.com, resbin@123) -->
+                  <span class="method-name">printData1</span>
+                  <span class="parameters">(resbin@gmail.com,resbin@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData1(athulya@gmail.com, athulya@123)">
+                  </a> <!-- printData1(athulya@gmail.com, athulya@123) -->
+                  <span class="method-name">printData1</span>
+                  <span class="parameters">(athulya@gmail.com,athulya@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData1(siva@gmail.com, siva@123)">
+                  </a> <!-- printData1(siva@gmail.com, siva@123) -->
+                  <span class="method-name">printData1</span>
+                  <span class="parameters">(siva@gmail.com,siva@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printData1(sreekanth@gmail.com, sreekanth@123)">
+                  </a> <!-- printData1(sreekanth@gmail.com, sreekanth@123) -->
+                  <span class="method-name">printData1</span>
+                  <span class="parameters">(sreekanth@gmail.com,sreekanth@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MainSuite-class-passed -->
+        </div> <!-- panel MainSuite -->
+        <div panel-name="test-xml-MainSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\AUTOMATION TESTING\M3Vtiger\Maintestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MainSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MainTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testPackage.dataSupplyTest&quot;/&gt;
+      &lt;class name=&quot;testPackage.DataSupply&quot;/&gt;
+      &lt;class name=&quot;testPackage.ContactTest&quot;/&gt;
+      &lt;class name=&quot;testPackage.AttributesTest&quot;/&gt;
+      &lt;class name=&quot;testPackage.OrganizationsTest&quot;/&gt;
+      &lt;class name=&quot;testPackage.VerificationClass&quot;/&gt;
+      &lt;class name=&quot;testPackage.ScenarioTest2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MainTest --&gt;
+&lt;/suite&gt; &lt;!-- MainSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MainSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MainSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MainTest (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MainSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MainSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">adhoc</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">integration</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">moveToLeadsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">moveToOrganizationsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">moveToCalendarPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">moveToContactsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MainSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MainSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MainSuite');
+function tableData_MainSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createContact')
+data.setCell(0, 2, 'testPackage.ContactTest')
+data.setCell(0, 3, 8300);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createContact')
+data.setCell(1, 2, 'testPackage.ContactTest')
+data.setCell(1, 3, 8243);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'moveToLeadsPage')
+data.setCell(2, 2, 'testPackage.AttributesTest')
+data.setCell(2, 3, 8155);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createOrganization')
+data.setCell(3, 2, 'testPackage.OrganizationsTest')
+data.setCell(3, 3, 6118);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'moveToContactsPage')
+data.setCell(4, 2, 'testPackage.AttributesTest')
+data.setCell(4, 3, 4777);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'moveToCalendarPage')
+data.setCell(5, 2, 'testPackage.AttributesTest')
+data.setCell(5, 3, 4767);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'moveToOrganizationsPage')
+data.setCell(6, 2, 'testPackage.AttributesTest')
+data.setCell(6, 3, 4483);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'printData17')
+data.setCell(7, 2, 'testPackage.dataSupplyTest')
+data.setCell(7, 3, 16);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'printData')
+data.setCell(8, 2, 'testPackage.dataSupplyTest')
+data.setCell(8, 3, 14);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'printData17')
+data.setCell(9, 2, 'testPackage.dataSupplyTest')
+data.setCell(9, 3, 14);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'printData')
+data.setCell(10, 2, 'testPackage.DataSupply')
+data.setCell(10, 3, 12);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'printData')
+data.setCell(11, 2, 'testPackage.dataSupplyTest')
+data.setCell(11, 3, 12);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'printData1')
+data.setCell(12, 2, 'testPackage.DataSupply')
+data.setCell(12, 3, 12);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'printData')
+data.setCell(13, 2, 'testPackage.dataSupplyTest')
+data.setCell(13, 3, 11);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'contactDetails')
+data.setCell(14, 2, 'testPackage.DataSupply')
+data.setCell(14, 3, 8);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'printData')
+data.setCell(15, 2, 'testPackage.dataSupplyTest')
+data.setCell(15, 3, 7);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'printData1')
+data.setCell(16, 2, 'testPackage.DataSupply')
+data.setCell(16, 3, 7);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'printData1')
+data.setCell(17, 2, 'testPackage.DataSupply')
+data.setCell(17, 3, 7);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'printData17')
+data.setCell(18, 2, 'testPackage.dataSupplyTest')
+data.setCell(18, 3, 7);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'printData17')
+data.setCell(19, 2, 'testPackage.dataSupplyTest')
+data.setCell(19, 3, 5);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'printData1')
+data.setCell(20, 2, 'testPackage.DataSupply')
+data.setCell(20, 3, 4);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verify')
+data.setCell(21, 2, 'testPackage.VerificationClass')
+data.setCell(21, 3, 4);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'printData')
+data.setCell(22, 2, 'testPackage.DataSupply')
+data.setCell(22, 3, 3);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'printData')
+data.setCell(23, 2, 'testPackage.DataSupply')
+data.setCell(23, 3, 2);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'contactDetails')
+data.setCell(24, 2, 'testPackage.DataSupply')
+data.setCell(24, 3, 2);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TestCase3')
+data.setCell(25, 2, 'testPackage.ScenarioTest2')
+data.setCell(25, 3, 2);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'printData')
+data.setCell(26, 2, 'testPackage.DataSupply')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TestCase4')
+data.setCell(27, 2, 'testPackage.ScenarioTest2')
+data.setCell(27, 3, 1);
+window.suiteTableData['MainSuite']= { tableData: data, tableDiv: 'times-div-MainSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-MainSuite">
+              </div> <!-- times-div-MainSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MainSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MainSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData(sneha@gmail.com, sneha@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createContact(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">createContact testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData(sneha@gmail.com, sneha@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createContact(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">createContact testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData(helen@gmail.com, helen@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">moveToCalendarPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">moveToCalendarPage testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">contactDetails(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">contactDetails testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData(hari@gmail.com, hari@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData17(sreekanth@gmail.com, sreekanth@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData17 testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData(helen@gmail.com, helen@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData1(resbin@gmail.com, resbin@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData1 testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData(alina@gmail.com, alina@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData1(athulya@gmail.com, athulya@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData1 testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData(hari@gmail.com, hari@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestCase3 testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData(alina@gmail.com, alina@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase4</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestCase4 testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createOrganization</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">createOrganization testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData17(siva@gmail.com, siva@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData17 testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData1(siva@gmail.com, siva@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData1 testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData17(athulya@gmail.com, athulya@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData17 testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData1(sreekanth@gmail.com, sreekanth@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData1 testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">moveToContactsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">moveToContactsPage testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printData17(resbin@gmail.com, resbin@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">printData17 testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">contactDetails(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">contactDetails testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">moveToOrganizationsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">moveToOrganizationsPage testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">moveToLeadsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">moveToLeadsPage testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verify testcase execution started</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MainSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MainSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.dataSupplyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">printData(helen@gmail.com, helen@123)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData(sneha@gmail.com, sneha@123)</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData(alina@gmail.com, alina@123)</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData(hari@gmail.com, hari@123)</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData17(resbin@gmail.com, resbin@123)</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData17(siva@gmail.com, siva@123)</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData17(sreekanth@gmail.com, sreekanth@123)</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData17(athulya@gmail.com, athulya@123)</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.DataSupply</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">contactDetails(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655)</span>
+                <span class="method-start">739 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contactDetails(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655)</span>
+                <span class="method-start">749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData(helen@gmail.com, helen@123)</span>
+                <span class="method-start">753 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData(sneha@gmail.com, sneha@123)</span>
+                <span class="method-start">756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData(alina@gmail.com, alina@123)</span>
+                <span class="method-start">760 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData(hari@gmail.com, hari@123)</span>
+                <span class="method-start">765 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData1(resbin@gmail.com, resbin@123)</span>
+                <span class="method-start">800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData1(siva@gmail.com, siva@123)</span>
+                <span class="method-start">816 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData1(sreekanth@gmail.com, sreekanth@123)</span>
+                <span class="method-start">831 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printData1(athulya@gmail.com, athulya@123)</span>
+                <span class="method-start">852 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.ContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login(edge)</span>
+                <span class="method-start">898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createContact(Mr., Asha, Mehta, Employee, Bank Employee,  Bank, asha@gmail.com, 9988776655)</span>
+                <span class="method-start">5862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">14171 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login(edge)</span>
+                <span class="method-start">16428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createContact(Mr., Meera, K R, Employee, Bank Employee,  Bank, meera@gmail.com, 9988756655)</span>
+                <span class="method-start">20022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">28269 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.AttributesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login(edge)</span>
+                <span class="method-start">30514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">moveToCalendarPage</span>
+                <span class="method-start">34158 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">38940 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login(edge)</span>
+                <span class="method-start">41180 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">moveToContactsPage</span>
+                <span class="method-start">44763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">49551 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login(edge)</span>
+                <span class="method-start">51739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">moveToLeadsPage</span>
+                <span class="method-start">55388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">63544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login(edge)</span>
+                <span class="method-start">65911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">moveToOrganizationsPage</span>
+                <span class="method-start">69511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">73996 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.OrganizationsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login(edge)</span>
+                <span class="method-start">76210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createOrganization</span>
+                <span class="method-start">79854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logout</span>
+                <span class="method-start">85986 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.VerificationClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login(edge)</span>
+                <span class="method-start">86433 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify</span>
+                <span class="method-start">90150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">92218 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPackage.ScenarioTest2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">login(edge)</span>
+                <span class="method-start">96237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase3</span>
+                <span class="method-start">99979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">99982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login(edge)</span>
+                <span class="method-start">105632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCase4</span>
+                <span class="method-start">109467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">109471 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
