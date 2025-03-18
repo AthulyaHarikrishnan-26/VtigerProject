@@ -30,6 +30,12 @@ public class AttributesTest extends BaseClass {
 		hp.clickContactsLink();
 		System.out.println("smoke 2");
 	}
+	@Test(groups = "smoke")
+	public void moveToContactsPage1() {
+		hp.clickContactsLink();
+		System.out.println("smoke 2");
+	}
+
 }
 
 //PRIORITY,INVOCATION COUNT,DESCRIPTION,ENABLED,ALWAYS RUN
